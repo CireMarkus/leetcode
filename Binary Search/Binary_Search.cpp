@@ -13,7 +13,7 @@ int binary_search(vector<int>& arr, int target){
 
     //condition to run until left is greater than right. 
     while (left <= right){
-        // Finds the middle vale of the interval
+        // Finds the middle value of the interval
         mid = left + (right-left) / 2;
 
         //if the target is greater than the middle value
